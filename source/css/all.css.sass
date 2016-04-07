@@ -1,0 +1,57 @@
+@charset "utf-8"
+
+@import "settings"
+@import "imports"
+
+body
+
+header
+  text-align: center
+  overflow: auto
+  background: url('../images/castle.jpg') fixed
+  background-position: bottom
+  background-size: cover
+  color: #770000
+  .logo
+    width: 340px
+  .film
+    background: rgba(255,255,255,0.8)
+    padding: 30px
+    overflow: auto
+  h1
+    font-size: 2.5em
+  h2
+    font-size: 1.5em
+    color: #333
+  p
+    font-family: arial-black
+    font-size: 1.3em
+    color: #fff
+h1, h2, h3
+  text-transform: uppercase
+  font-family: arial-black
+
+section
+  clear: both
+  overflow: auto
+
+.package
+  padding: 15px 50px
+  text-align: center
+  &:nth-child(odd)
+    background: #821
+    color: #fff
+  ul
+    list-style: none
+    padding: 0
+.packages-heading
+  background: #821
+  color: #fff
+  overflow: auto
+  text-align: center
+  padding-bottom: 10px
+  margin-bottom: 20px
+
+footer
+  height: 150px
+  background: #222
