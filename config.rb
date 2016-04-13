@@ -61,7 +61,7 @@ Slim::Engine.set_default_options :shortcut => {
   '&' => {:tag => 'input', :attr => 'type'}
 }
 
-# Markdown settings 
+# Markdown settings
 set :markdown, :tables => true, :autolink => true, :gh_blockcode => true, :fenced_code_blocks => true, :with_toc_data => true
 set :markdown_engine, :redcarpet
 
@@ -105,7 +105,7 @@ activate :livereload
 # Set site setting, used in helpers / sitemap.xml / feed.xml.
 set :site_url, 'http://blog.url.com'
 set :site_author, 'Blog author'
-set :site_title, 'Blog title'
+set :site_title, 'The InterKnights'
 set :site_description, 'Blog description'
 # Select the theme from bootswatch.com.
 # If false, you can get plain bootstrap style.
@@ -168,7 +168,7 @@ end
 # Deploy settings
 ###
 
-# ftp deployment configuration. 
+# ftp deployment configuration.
 # activate :deploy do |deploy|
 #   deploy.method = :ftp
 #   deploy.host = "ftp-host"

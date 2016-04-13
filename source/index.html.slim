@@ -1,34 +1,66 @@
+---
+title: The Interknights!
+---
+
+
 header
-  .film
-    .col-xs-12
-      img(src="images/interknights.png" class="logo")
-      h1 The Interknights
-      h2 <span>Websites in a day</span> - <span>Starting at <strong>$250</strong>.</span>
+  .film.home
+    = partial "partials/navbar"
+    .container
+      .content
+        h2 $250 Websites in a day
+        h3 Lansing and Grand Rapids
+        .contact
+          p <span class="glyphicon glyphicon-map-marker"></span> Lansing, Michigan
+          p <span class="glyphicon glyphicon-earphone"></span> 517-449-1527
+          p <span class="glyphicon glyphicon-envelope"></span> info@interknights.co
 section.pricing
-  .packages-heading
-    h2 Pricing
+  .packages-heading.container
+    h2 Choose a package
+    p Each of our packages brings you <strong>a complete website and web presence in a day</strong>. The personal communication and collaborative process of our work is what sets us apart. What we offer is more than a presence on the web, it is also a lesson in making the most of the tools you'll be using.
   .container
-    .col-sm-6
-      .package
-        h3 Coffee Shop Session
-        h4.price $250
-        ul
-          li Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          li Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          li Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          li Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          li Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    .col-sm-6
-      .package
-        h3 Website in a day
-        h4.price $500
-        ul
-          li Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          li Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          li Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          li Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          li Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-section.contact
-  p 517-449-1527
-  p info@interknights.co
-footer
+    .row
+      .col-sm-6
+        .package
+          h4.price $250
+          h3 Coffee Shop Session
+          p We sit down one-on-one at a coffee shop and crank out a website and full web presence for your business, the coffee is on us. Here's what this package includes:
+          ul
+            li One personalized website
+            li A facebook page for your business
+            li Your business listed on google maps
+            li As much content for your page as we can complete in one session
+            li Consultation on making the most of these tools, climbing the Google search results, and more.
+          .links
+            .col-md-6
+              a href="/services#coffee"
+                .btn.btn-white View full description
+            .col-md-6
+              a href="http://calendly.com/swpearman/coffee" target="blank"
+                .btn.btn-white Book a Session
+      .col-sm-6
+        .package
+          h4.price $500
+          h3 Website in a day
+          p We come to your place of business, and set up your web presence as you go about your normal workday. If you do not have a physical location, other arrangements will be made. This is the complete package, and it includes:
+          ul
+            li Everything included in the Coffee Shop Session
+            li Custom photography
+            li Fully personalized content for your website
+            li Additional time put into design, marketing strategy, and social media
+            li Gathering input and testimonials from customers
+          .links
+            .col-md-6
+              a href="/services#coffee"
+                .btn.btn-white View full description
+            .col-md-6
+              a href="http://calendly.com/swpearman/website-in-a-day" target="blank"
+                .btn.btn-white Book a Session
+    h3 Looking for something a little different?
+    p Take a look at our full list of services, or shoot us an email at info@interknights.co.
+    a href="/services"
+      .btn.btn-med.btn-red View Services
+section.about
+  .container
+    h2 Our Stand
+    p <strong>InterKnights was created to help</strong> those who are unable to pay the premium rates that are so often charged by web development and marketing firms. We realized that in many cases, the cost of a website alone may set a small business back so far that it ends up hurting, rather than helping. The odds are already stacked against the small business owner, so we have made it our mission to tip the scales. The Interknights believe that the web can be a balancing force, and <strong>our mission is to empower all people to grow and flourish</strong> using the greatest tool equal opportunity has ever had, the internet.
