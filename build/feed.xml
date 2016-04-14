@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>The InterKnights</title>
-  <subtitle>Blog description</subtitle>
+  <subtitle>We are the InterKnights. We deliver your website and a full web marketing plan in a day to help your business grow. Fighting for an even playing field through the web.</subtitle>
   <id>http://blog.url.com</id>
   <link href="http://blog.url.com"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>

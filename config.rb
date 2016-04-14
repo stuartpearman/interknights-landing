@@ -106,7 +106,7 @@ activate :livereload
 set :site_url, 'http://blog.url.com'
 set :site_author, 'Blog author'
 set :site_title, 'The InterKnights'
-set :site_description, 'Blog description'
+set :site_description, 'We are the InterKnights. We deliver your website and a full web marketing plan in a day to help your business grow. Fighting for an even playing field through the web.'
 # Select the theme from bootswatch.com.
 # If false, you can get plain bootstrap style.
 # set :theme_name, 'flatly'
