@@ -103,10 +103,10 @@ activate :livereload
 # Site Settings
 ###
 # Set site setting, used in helpers / sitemap.xml / feed.xml.
-set :site_url, 'http://blog.url.com'
-set :site_author, 'Blog author'
+set :site_url, 'http://www.interknights.co'
+set :site_author, 'InterKnights'
 set :site_title, 'The InterKnights'
-set :site_description, 'We are the InterKnights. We deliver your website and a full web marketing plan in a day to help your business grow. Fighting for an even playing field through the web.'
+set :site_description, "We are the InterKnights. Our mission is to shift the odds in favor of small businesses, non-profits, and charity organizations using the world's greatest tool for equal opportunity, the internet."
 # Select the theme from bootswatch.com.
 # If false, you can get plain bootstrap style.
 # set :theme_name, 'flatly'

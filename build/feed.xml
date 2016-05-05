@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>The InterKnights</title>
-  <subtitle>We are the InterKnights. We deliver your website and a full web marketing plan in a day to help your business grow. Fighting for an even playing field through the web.</subtitle>
-  <id>http://blog.url.com</id>
-  <link href="http://blog.url.com"/>
-  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <subtitle>We are the InterKnights. Our mission is to shift the odds in favor of small businesses, non-profits, and charity organizations using the world's greatest tool for equal opportunity, the internet.</subtitle>
+  <id>http://www.interknights.co</id>
+  <link href="http://www.interknights.co"/>
+  <link href="http://www.interknights.co/feed.xml" rel="self"/>
   <updated>2014-01-03T00:00:00Z</updated>
   <author>
-    <name>Blog author</name>
+    <name>InterKnights</name>
   </author>
   <entry>
     <title>Example Article 3</title>
-    <link rel="alternate" href="http://blog.url.com/2014/01/03/example-article.html"/>
-    <id>http://blog.url.com/2014/01/03/example-article.html</id>
+    <link rel="alternate" href="http://www.interknights.co/2014/01/03/example-article.html"/>
+    <id>http://www.interknights.co/2014/01/03/example-article.html</id>
     <published>2014-01-03T00:00:00Z</published>
     <updated>2016-04-04T20:34:11-04:00</updated>
     <author>
@@ -23,8 +23,8 @@
   </entry>
   <entry>
     <title>Example Article 2</title>
-    <link rel="alternate" href="http://blog.url.com/2014/01/02/example-article.html"/>
-    <id>http://blog.url.com/2014/01/02/example-article.html</id>
+    <link rel="alternate" href="http://www.interknights.co/2014/01/02/example-article.html"/>
+    <id>http://www.interknights.co/2014/01/02/example-article.html</id>
     <published>2014-01-02T00:00:00Z</published>
     <updated>2016-04-04T20:34:11-04:00</updated>
     <author>
@@ -35,8 +35,8 @@
   </entry>
   <entry>
     <title>Example Article 1</title>
-    <link rel="alternate" href="http://blog.url.com/2014/01/01/example-article.html"/>
-    <id>http://blog.url.com/2014/01/01/example-article.html</id>
+    <link rel="alternate" href="http://www.interknights.co/2014/01/01/example-article.html"/>
+    <id>http://www.interknights.co/2014/01/01/example-article.html</id>
     <published>2014-01-01T00:00:00Z</published>
     <updated>2016-04-04T20:34:11-04:00</updated>
     <author>

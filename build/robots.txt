@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://blog.url.com/sitemap.xml
+Sitemap: http://www.interknights.co/sitemap.xml
